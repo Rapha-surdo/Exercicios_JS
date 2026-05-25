@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+       height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        'header header header,'
+        'aside section section'
+        'footer footer footer';
+    grid-auto-rows: 15%, 60%, 15%;
+}
+
+.box1 {
+    width: 100%;
+    grid-area: header;
+    background-color: yellow;
+}
+
+.box2 {
+    width: 100%;
+    grid-area: aside;
+    background-color: aqua;
+}
+
+.box3 {
+    width: 100%;
+    grid-area: section;
+    background-color: crimson;
+}
+
+.box4 {
+    width: 100%;
+    grid-area: footer;
+    background-color: chartreuse;
+}
