@@ -9,49 +9,130 @@
     display: grid;
     gap: 25px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 80px 200px 200px 80px;
+    grid-template-rows: 80px 200px 200px 0px;
     padding: 20px;
-    border-radius: 5px;
 }
 
 .topo {
-    background-color: #ffaa64;
+    background-color: #373c48;
     grid-column: 1 / 13;
     text-align: center;
+    padding: 10px;
+    font-size: 42px;
+    font-weight: bold;
+    border-top: 10px solid #ffaa64;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .ladinho {
-    background-color: #00a877;
+    display: flex;
+    background-color: #373c48;
     grid-column: 1 / 9;
     grid-row: 2 / 3;
+    border-radius: 10px;
+
 }
+
+.EsquerdaIMG {
+    flex: 1;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.EsquerdaText {
+    padding: 10px;
+    font-weight: bold;
+    flex: 5;
+    font-size: 50px;
+    color: white;
+}
+
+
 
 .grandeC {
     background-color: #3ddcb4;
     grid-column: 9 / 13;
     grid-row: 2/12;
+    display: flex;
 }
 
 .PequenoC1 {
-    background-color: #ff6860;
     grid-column: 1 / 3;
     grid-row: 3 / 4;
+    background-color: #373c48;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.PequenoC1 img {
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.PequenoC1 p {
+    padding: 7px;
+    font-size: 16px;
+    word-wrap: break-word;
+    
 }
 
 .PequenoC2 {
     background-color: #ffaa64;
     grid-column: 4 / 6;
     grid-row: 3 / 4;
+    background-color: #373c48;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.PequenoC2 img {
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.PequenoC2 p {
+    padding: 7px;
+    font-size: 16px;
+    word-wrap: break-word;
 }
 
 .PequenoC3 {
     background-color: #ff6860;
     grid-column: 7 / 9;
     grid-row: 3 / 4;
+    background-color: #373c48;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.PequenoC3 img {
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.PequenoC3 p {
+    padding: 7px;
+    font-size: 16px;
+    word-wrap: break-word;
+    
 }
 
 .PequenoC4 {
-    background-color: #ff6860;
+    background-image: url(../../IMG/guerra.jpg);
     grid-column: 1 / 5;
     grid-row: 4 / 12;
 }
