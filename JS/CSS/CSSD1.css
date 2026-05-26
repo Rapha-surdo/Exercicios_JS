@@ -79,7 +79,7 @@
     padding: 7px;
     font-size: 16px;
     word-wrap: break-word;
-    
+
 }
 
 .PequenoC2 {
@@ -128,10 +128,11 @@
     padding: 7px;
     font-size: 16px;
     word-wrap: break-word;
-    
+
 }
 
 .PequenoC4 {
+    border-radius: 10px;
     background-image: url(../../IMG/guerra.jpg);
     grid-column: 1 / 5;
     grid-row: 4 / 12;
@@ -141,4 +142,23 @@
     background-color: #ff6860;
     grid-column: 5 / 9;
     grid-row: 4 / 12;
+    background-color: #373c48;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.PequenoC3 img {
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.PequenoC3 p {
+    padding: 7px;
+    font-size: 16px;
+    word-wrap: break-word;
+
 }
