@@ -1,0 +1,51 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .conteiner {
+        background-color: #22252c;
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 80px 200px 100px 80px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .topo {
+        background-color: #ffaa64;
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+
+    .ladinho{
+        background-color: #00a877;
+        grid-column: 1 / 2;
+        grid-row: 2/4;
+    }
+
+    .grandeC {
+        background-color: #3ddcb4;
+        grid-column: 2/ 4;
+        grid-row: 2/3;
+    }
+
+    .PequenoC1 {
+        background-color: #ff6860;
+        grid-column: 2 / 3;
+        grid-row: 3;
+    }
+
+    .PequenoC2 {
+        background-color: #ffaa64;
+        grid-column: 3 / 4;
+        grid-row: 3;
+    }
+
+    .roda {
+        background-color: #965c53;
+        grid-column: 1 / 4;
+        grid-row: 4;
+    }

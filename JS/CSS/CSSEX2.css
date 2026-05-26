@@ -3,7 +3,7 @@
         padding: 0;
     }
 
-    .conteiner-geral {
+    .conteiner {
         height: 100vh;
         display: grid;
         gap: 10px;
