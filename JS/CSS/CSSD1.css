@@ -133,7 +133,6 @@
 
 .PequenoC4 {
     border-radius: 10px;
-    background-image: url(../../IMG/guerra.jpg);
     grid-column: 1 / 5;
     grid-row: 4 / 12;
 }
