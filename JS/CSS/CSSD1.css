@@ -56,6 +56,8 @@
     grid-column: 4/5;
     grid-row: 2/5;
     display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 6% 20% 20% 20%;
 }
 
 .PequenoC1 {
