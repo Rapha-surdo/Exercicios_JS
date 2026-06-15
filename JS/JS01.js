@@ -1,10 +1,7 @@
-function apresentar() {
-    var nome = document.getElementById("nome").value;
-    var idade = document.getElementById("idade").value;
-    var data = document.getElementById("data").value;
-
-    alert("Oi, eu sou " + nome +
-        ", nasci em " + data +
-        " e tenho " + idade +
-        " anos. Prazer em te conhecer!")
+function apresentar() { 
+    var nome = prompt("Qual é o seu nome?"); 
+    var entrada = prompt("Salário:"); 
+    var entrada2 = prompt("Vendas:"); 
+    var comissao = Number(entrada2) * 0.025; 
+    alert("Oi, eu sou " + nome + ", meu salário é R$ " + entrada + ", minhas vendas foram de R$ " + entrada2 + " e a comissão é R$ " + comissao + "."); 
 }
